@@ -1,0 +1,1164 @@
+General Answer
+{
+  "messageType": 0 | 1,
+  "message": "string",
+  "responseData": {},
+  "elapsedTime": "string"
+}
+
+HTTP REsponse code
+200 OK
+
+Example of data not found
+
+{
+  "messageType": 1,
+  "message": "User Not found",
+  "responseData": [],
+  "elapsedTime": "14"
+}
+
+Login
+======
+{
+  "token": "E2xCv9VWbUqtfvl9v739EA==",
+  "returnError": {
+    "errorCode": 0,
+    "errorDescription": ""
+  }
+}
+
+401: bad psswd
+
+
+User
+=====
+
+{
+  "messageType": 0,
+  "message": "Ok",
+  "responseData": [
+    {
+      "surname": "SNTNYYIVT",
+      "firstname": "GNTQCWSYI",
+      "userId": "F04280B",
+      "site": "GRUGLIASCO - CO CM GRUGL V.RIVALTA 49",
+      "cdc": "02D01427@575004"
+    }
+  ],
+  "elapsedTime": "181"
+}
+
+Asset
+======
+{
+  "messageType": 0,
+  "message": "Ok",
+  "responseData": {
+    "serialNumber": null,
+    "deploySite": null,
+    "building": null,
+    "softwareAllocation": null,
+    "floor": null,
+    "room": null,
+    "assetCostCenter": null,
+    "assignmentDate": null,
+    "utilization": null,
+    "hostname": null,
+    "macAddress": null,
+    "processorModel": null,
+    "totalDiskSpace": null,
+    "totalMemory": null,
+    "operatingSystem": null,
+    "catalogName": "Z4 G4",
+    "marca": "HEWLETT-PACKARD",
+    "componentID": null,
+    "note": null,
+    "level": null,
+    "video": null
+  },
+  "elapsedTime": "30"
+}
+
+
+OS
+=====
+{
+  "messageType": 0,
+  "message": "Ok",
+  "responseData": [
+    {
+      "osId": 1000282,
+      "operatingSystemName": "3.1A UPDATE"
+    },
+    {
+      "osId": 1000006,
+      "operatingSystemName": "AIX"
+    },
+    {
+      "osId": 1000239,
+      "operatingSystemName": "AIX v5.2"
+    },
+    {
+      "osId": 1000077,
+      "operatingSystemName": "AIX v5.3"
+    },
+    {
+      "osId": 1000228,
+      "operatingSystemName": "AIX v6.0"
+    },
+    {
+      "osId": 1000007,
+      "operatingSystemName": "AIX v6.1"
+    },
+    {
+      "osId": 1000086,
+      "operatingSystemName": "Alpha/VMS"
+    },
+    {
+      "osId": 1000223,
+      "operatingSystemName": "Android 4.1.1"
+    },
+    {
+      "osId": 1000232,
+      "operatingSystemName": "CentOS 4/5/6"
+    },
+    {
+      "osId": 1000133,
+      "operatingSystemName": "CentOS 4/5/6 (32-bit)"
+    },
+    {
+      "osId": 1000142,
+      "operatingSystemName": "CentOS 4/5/6 (64-bit)"
+    },
+    {
+      "osId": 1000244,
+      "operatingSystemName": "CentOS 4/5/6/7 (64-bit)"
+    },
+    {
+      "osId": 1000099,
+      "operatingSystemName": "CHARON"
+    },
+    {
+      "osId": 1000202,
+      "operatingSystemName": "Debian GNU/Linux 4 (64-bit)"
+    },
+    {
+      "osId": 1000206,
+      "operatingSystemName": "Debian GNU/Linux 5 (64-bit)"
+    },
+    {
+      "osId": 1000233,
+      "operatingSystemName": "Debian GNU/Linux 6"
+    },
+    {
+      "osId": 1000203,
+      "operatingSystemName": "Debian GNU/Linux 6 (64-bit)"
+    },
+    {
+      "osId": 1000098,
+      "operatingSystemName": "ESX"
+    },
+    {
+      "osId": 1000020,
+      "operatingSystemName": "ESXI 5.0"
+    },
+    {
+      "osId": 1000008,
+      "operatingSystemName": "HP-UX"
+    },
+    {
+      "osId": 1000266,
+      "operatingSystemName": "Interface management Version 7.0.98.218 - Field Recovery Image Version"
+    },
+    {
+      "osId": 1000259,
+      "operatingSystemName": "Interface management Version 7.2.111.3 - Field Recovery Image Version 6.0.182.0"
+    },
+    {
+      "osId": 1000258,
+      "operatingSystemName": "IOS Version : (C2960-LANBASEK9-M), Version 12.2(25)FX, RELEASE SOFTWARE (fc1)"
+    },
+    {
+      "osId": 1000267,
+      "operatingSystemName": "IOS Version : (C2960-LANBASEK9-M), Version 12.2(25)SE1, RELEASE SOFTWARE (fc1)"
+    },
+    {
+      "osId": 1000257,
+      "operatingSystemName": "IOS Version : (C2960-LANBASEK9-M), Version 12.2(25)SEE4, RELEASE SOFTWARE (fc1)"
+    },
+    {
+      "osId": 1000265,
+      "operatingSystemName": "IOS Version : (C2960-LANBASEK9-M), Version 12.2(55)SE1, RELEASE SOFTWARE (fc1)"
+    },
+    {
+      "osId": 1000256,
+      "operatingSystemName": "IOS Version : (C2960-LANBASE-M), Version 12.2(25)FX, RELEASE SOFTWARE (fc1)"
+    },
+    {
+      "osId": 1000261,
+      "operatingSystemName": "IOS Version : (C3750E-UNIVERSALK9-M), Version 12.2(55)SE3, RELEASE SOFTWARE (fc1)"
+    },
+    {
+      "osId": 1000264,
+      "operatingSystemName": "IOS Version : (C3750-IPBASEK9-M), Version 12.2(50)SE5, RELEASE SOFTWARE (fc1)"
+    },
+    {
+      "osId": 1000253,
+      "operatingSystemName": "IOS Version : (C3750-IPBASEK9-M), Version 12.2(55)SE1, RELEASE SOFTWARE (fc1)"
+    },
+    {
+      "osId": 1000254,
+      "operatingSystemName": "IOS Version : (cat4500e-ENTSERVICESK9-M), Version 12.2(54)SG, RELEASE SOFTWARE (fc3)"
+    },
+    {
+      "osId": 1000025,
+      "operatingSystemName": "Linux"
+    },
+    {
+      "osId": 1000200,
+      "operatingSystemName": "Linux 3.13.8-200.fc20.x86_64 Fedora release 20 (Heisenbug)"
+    },
+    {
+      "osId": 1000201,
+      "operatingSystemName": "Linux 3.13.9-200.fc20.x86_64 Fedora release 20 (Heisenbug)"
+    },
+    {
+      "osId": 1000270,
+      "operatingSystemName": "Linux 3.14.29 Veeam Linux Appliance 9.0.0. Veeam Veeam Linux Appliance for VmWare "
+    },
+    {
+      "osId": 1000009,
+      "operatingSystemName": "Linux RedHat"
+    },
+    {
+      "osId": 1000158,
+      "operatingSystemName": "Linux RedHat EL AS 6.5"
+    },
+    {
+      "osId": 1000240,
+      "operatingSystemName": "Linux RedHat Enterprise"
+    },
+    {
+      "osId": 1000024,
+      "operatingSystemName": "Macintosh"
+    },
+    {
+      "osId": 1000147,
+      "operatingSystemName": "Microsoft Small Business Server 2003"
+    },
+    {
+      "osId": 1000269,
+      "operatingSystemName": "Microsoft Windows 10 Enterprise"
+    },
+    {
+      "osId": 1000290,
+      "operatingSystemName": "Microsoft Windows 10 Enterprise 2015 LTSB"
+    },
+    {
+      "osId": 1000288,
+      "operatingSystemName": "Microsoft Windows 10 Enterprise 2016 LTSB"
+    },
+    {
+      "osId": 1000289,
+      "operatingSystemName": "Microsoft Windows 10 Enterprise LTSC"
+    },
+    {
+      "osId": 1000276,
+      "operatingSystemName": "Microsoft Windows 10 Pro"
+    },
+    {
+      "osId": 1000237,
+      "operatingSystemName": "Microsoft Windows 10 Pro Insider Preview"
+    },
+    {
+      "osId": 1000145,
+      "operatingSystemName": "Microsoft Windows 2000"
+    },
+    {
+      "osId": 1000191,
+      "operatingSystemName": "Microsoft Windows 2000 Advanced Server"
+    },
+    {
+      "osId": 1000130,
+      "operatingSystemName": "Microsoft Windows 2000 Professional"
+    },
+    {
+      "osId": 1000140,
+      "operatingSystemName": "Microsoft Windows 2000 Server"
+    },
+    {
+      "osId": 1000159,
+      "operatingSystemName": "Microsoft Windows 2012 Storage Server SE"
+    },
+    {
+      "osId": 1000199,
+      "operatingSystemName": "Microsoft Windows 7 (32-bit)"
+    },
+    {
+      "osId": 1000129,
+      "operatingSystemName": "Microsoft Windows 7 (64-bit)"
+    },
+    {
+      "osId": 1000249,
+      "operatingSystemName": "Microsoft Windows 7 Édition Intégrale Service Pack 1"
+    },
+    {
+      "osId": 1000001,
+      "operatingSystemName": "Microsoft Windows 7 Enterprise"
+    },
+    {
+      "osId": 1000070,
+      "operatingSystemName": "Microsoft Windows 7 Entreprise"
+    },
+    {
+      "osId": 1000279,
+      "operatingSystemName": "Microsoft Windows 7 Entreprise N"
+    },
+    {
+      "osId": 1000246,
+      "operatingSystemName": "Microsoft Windows 7 Entreprise Service Pack 1"
+    },
+    {
+      "osId": 1000053,
+      "operatingSystemName": "Microsoft Windows 7 Professional"
+    },
+    {
+      "osId": 1000221,
+      "operatingSystemName": "Microsoft Windows 7 Service-Pack 1"
+    },
+    {
+      "osId": 1000054,
+      "operatingSystemName": "Microsoft Windows 7 Ultimate"
+    },
+    {
+      "osId": 1000248,
+      "operatingSystemName": "Microsoft Windows 7 Ultimate Service Pack 1"
+    },
+    {
+      "osId": 1000176,
+      "operatingSystemName": "Microsoft Windows 8 Enterprise"
+    },
+    {
+      "osId": 1000212,
+      "operatingSystemName": "Microsoft Windows 8 Pro"
+    },
+    {
+      "osId": 1000175,
+      "operatingSystemName": "Microsoft Windows 8.1 Enterprise"
+    },
+    {
+      "osId": 1000211,
+      "operatingSystemName": "Microsoft Windows 8.1 Pro"
+    },
+    {
+      "osId": 1000225,
+      "operatingSystemName": "Microsoft Windows 95"
+    },
+    {
+      "osId": 1000226,
+      "operatingSystemName": "Microsoft Windows 98"
+    },
+    {
+      "osId": 1000278,
+      "operatingSystemName": "Microsoft Windows Embedded 8 Standard"
+    },
+    {
+      "osId": 1000162,
+      "operatingSystemName": "Microsoft Windows Embedded Standard"
+    },
+    {
+      "osId": 1000224,
+      "operatingSystemName": "Microsoft Windows Mobile 6.5"
+    },
+    {
+      "osId": 1000141,
+      "operatingSystemName": "Microsoft Windows NT"
+    },
+    {
+      "osId": 1000128,
+      "operatingSystemName": "Microsoft Windows Server 2003 (32-bit)"
+    },
+    {
+      "osId": 1000125,
+      "operatingSystemName": "Microsoft Windows Server 2003 (64-bit)"
+    },
+    {
+      "osId": 1000192,
+      "operatingSystemName": "MICROSOFT WINDOWS SERVER 2003 R2 STANDARD EDITION"
+    },
+    {
+      "osId": 1000121,
+      "operatingSystemName": "Microsoft Windows Server 2003 Standard (32-bit)"
+    },
+    {
+      "osId": 1000123,
+      "operatingSystemName": "Microsoft Windows Server 2003 Standard (64-bit)"
+    },
+    {
+      "osId": 1000106,
+      "operatingSystemName": "Microsoft Windows Server 2003, Standard Edition (32-bit)"
+    },
+    {
+      "osId": 1000124,
+      "operatingSystemName": "Microsoft Windows Server 2008 (32-bit)"
+    },
+    {
+      "osId": 1000136,
+      "operatingSystemName": "Microsoft Windows Server 2008 (64-bit)"
+    },
+    {
+      "osId": 1000102,
+      "operatingSystemName": "Microsoft Windows Server 2008 R2 (64-bit)"
+    },
+    {
+      "osId": 1000116,
+      "operatingSystemName": "Microsoft Windows Server 2008 R2 Enterprise"
+    },
+    {
+      "osId": 1000154,
+      "operatingSystemName": "Microsoft Windows Server 2008 R2 Enterprise (32-bit)"
+    },
+    {
+      "osId": 1000155,
+      "operatingSystemName": "Microsoft Windows Server 2008 R2 Enterprise (64-bit)"
+    },
+    {
+      "osId": 1000114,
+      "operatingSystemName": "Microsoft Windows Server 2008 R2 Standard"
+    },
+    {
+      "osId": 1000138,
+      "operatingSystemName": "Microsoft Windows Server 2012 (64-bit)"
+    },
+    {
+      "osId": 1000238,
+      "operatingSystemName": "Microsoft Windows Server 2012 R2 Datacenter"
+    },
+    {
+      "osId": 1000234,
+      "operatingSystemName": "Microsoft Windows Server 2012 R2 Enterprise"
+    },
+    {
+      "osId": 1000216,
+      "operatingSystemName": "Microsoft Windows Server 2012 R2 Standard"
+    },
+    {
+      "osId": 1000195,
+      "operatingSystemName": "Microsoft Windows Server 2012 Standard"
+    },
+    {
+      "osId": 1000292,
+      "operatingSystemName": "Microsoft Windows Server 2016 Datacenter"
+    },
+    {
+      "osId": 1000277,
+      "operatingSystemName": "Microsoft Windows Server 2016 Standard"
+    },
+    {
+      "osId": 1000144,
+      "operatingSystemName": "Microsoft Windows Server 8 (64-bit)"
+    },
+    {
+      "osId": 1000286,
+      "operatingSystemName": "Microsoft Windows Storage Server 2008 Enterprise"
+    },
+    {
+      "osId": 1000285,
+      "operatingSystemName": "Microsoft Windows Storage Server 2012 R2 Standard"
+    },
+    {
+      "osId": 1000284,
+      "operatingSystemName": "Microsoft Windows Storage Server 2012 Standard"
+    },
+    {
+      "osId": 1000236,
+      "operatingSystemName": "Microsoft Windows Vista"
+    },
+    {
+      "osId": 1000002,
+      "operatingSystemName": "Microsoft Windows XP Professional"
+    },
+    {
+      "osId": 1000119,
+      "operatingSystemName": "Microsoft Windows XP Professional (32-bit)"
+    },
+    {
+      "osId": 1000120,
+      "operatingSystemName": "Microsoft Windows XP Professional (64-bit)"
+    },
+    {
+      "osId": 1000251,
+      "operatingSystemName": "Microsoft Windows XP Professional Service Pack 2"
+    },
+    {
+      "osId": 1000021,
+      "operatingSystemName": "Microsoft Windows XP Professional x64"
+    },
+    {
+      "osId": 1000005,
+      "operatingSystemName": "Microsoft Windows XP Professionnel"
+    },
+    {
+      "osId": 1000250,
+      "operatingSystemName": "Microsoft Windows XP Service-Pack 2"
+    },
+    {
+      "osId": 1000222,
+      "operatingSystemName": "Microsoft Windows XP Service-Pack 3"
+    },
+    {
+      "osId": 1000197,
+      "operatingSystemName": "Microsoft(R) Windows(R) Server 2003 Enterprise x64 Edition"
+    },
+    {
+      "osId": 1000113,
+      "operatingSystemName": "Microsoft(R) Windows(R) Server 2003 Standard x64 Edition"
+    },
+    {
+      "osId": 1000109,
+      "operatingSystemName": "Microsoft(R) Windows(R) Server 2003, Enterprise Edition"
+    },
+    {
+      "osId": 1000112,
+      "operatingSystemName": "Microsoft(R) Windows(R) Server 2003, Standard Edition"
+    },
+    {
+      "osId": 1000118,
+      "operatingSystemName": "Microsoft(R) Windows(R) XP Professional x64 Edition"
+    },
+    {
+      "osId": 1000231,
+      "operatingSystemName": "MS-DOS4"
+    },
+    {
+      "osId": 1000143,
+      "operatingSystemName": "Novell SUSE Linux Enterprise 11 (64-bit)"
+    },
+    {
+      "osId": 1000019,
+      "operatingSystemName": "OS390"
+    },
+    {
+      "osId": 1000059,
+      "operatingSystemName": "OS400"
+    },
+    {
+      "osId": 1000018,
+      "operatingSystemName": "OS400 v5R4M0"
+    },
+    {
+      "osId": 1000161,
+      "operatingSystemName": "Other (32-bit)"
+    },
+    {
+      "osId": 1000148,
+      "operatingSystemName": "Other 2.6.x Linux (32-bit)"
+    },
+    {
+      "osId": 1000132,
+      "operatingSystemName": "Other 2.6.x Linux (64-bit)"
+    },
+    {
+      "osId": 1000115,
+      "operatingSystemName": "Other Linux (32-bit)"
+    },
+    {
+      "osId": 1000139,
+      "operatingSystemName": "Other Linux (64-bit)"
+    },
+    {
+      "osId": 1000260,
+      "operatingSystemName": "Primary controller WLC-5508-MOD-01"
+    },
+    {
+      "osId": 1000255,
+      "operatingSystemName": "Primary controller WLC-5508-MOD-02"
+    },
+    {
+      "osId": 1000262,
+      "operatingSystemName": "Primary Controller WLC-5508-SMA-01"
+    },
+    {
+      "osId": 1000263,
+      "operatingSystemName": "Primary Controller WLC-5508-SMA-02"
+    },
+    {
+      "osId": 1000149,
+      "operatingSystemName": "Red Hat Enterprise Linux 2.1"
+    },
+    {
+      "osId": 1000126,
+      "operatingSystemName": "Red Hat Enterprise Linux 3 (32-bit)"
+    },
+    {
+      "osId": 1000134,
+      "operatingSystemName": "Red Hat Enterprise Linux 4 (32-bit)"
+    },
+    {
+      "osId": 1000137,
+      "operatingSystemName": "Red Hat Enterprise Linux 4 (64-bit)"
+    },
+    {
+      "osId": 1000230,
+      "operatingSystemName": "Red Hat Enterprise Linux 5"
+    },
+    {
+      "osId": 1000122,
+      "operatingSystemName": "Red Hat Enterprise Linux 5 (32-bit)"
+    },
+    {
+      "osId": 1000110,
+      "operatingSystemName": "Red Hat Enterprise Linux 5 (64-bit)"
+    },
+    {
+      "osId": 1000185,
+      "operatingSystemName": "Red Hat Enterprise Linux 6 (32-bit)"
+    },
+    {
+      "osId": 1000127,
+      "operatingSystemName": "Red Hat Enterprise Linux 6 (64-bit)"
+    },
+    {
+      "osId": 1000243,
+      "operatingSystemName": "Red Hat Enterprise Linux 7 (64-bit)"
+    },
+    {
+      "osId": 1000210,
+      "operatingSystemName": "Red Hat Enterprise Linux Server 6.3"
+    },
+    {
+      "osId": 1000146,
+      "operatingSystemName": "Red Hat Linux 6/7/8/9"
+    },
+    {
+      "osId": 1000218,
+      "operatingSystemName": "RED HAT Linux Enterprise 5.6 32bit"
+    },
+    {
+      "osId": 1000268,
+      "operatingSystemName": "rhel7_64Guest"
+    },
+    {
+      "osId": 1000023,
+      "operatingSystemName": "Solaris"
+    },
+    {
+      "osId": 1000131,
+      "operatingSystemName": "SUSE Linux Enterprise 11 (64-bit)"
+    },
+    {
+      "osId": 1000217,
+      "operatingSystemName": "SUSE LINUX ENTERPRISE SERVER 9.0 SP4"
+    },
+    {
+      "osId": 1000096,
+      "operatingSystemName": "Tandem"
+    },
+    {
+      "osId": 1000235,
+      "operatingSystemName": "Ubuntu"
+    },
+    {
+      "osId": 1000220,
+      "operatingSystemName": "Ubuntu 12.04"
+    },
+    {
+      "osId": 1000135,
+      "operatingSystemName": "Ubuntu Linux (32-bit)"
+    },
+    {
+      "osId": 1000160,
+      "operatingSystemName": "Ubuntu Linux (64-bit)"
+    },
+    {
+      "osId": 11000,
+      "operatingSystemName": "Undefined"
+    },
+    {
+      "osId": 1000097,
+      "operatingSystemName": "Unisys"
+    },
+    {
+      "osId": 1000010,
+      "operatingSystemName": "Unix"
+    },
+    {
+      "osId": 1000095,
+      "operatingSystemName": "Vax"
+    },
+    {
+      "osId": 1000060,
+      "operatingSystemName": "VM/ESA"
+    },
+    {
+      "osId": 1000061,
+      "operatingSystemName": "VMS"
+    },
+    {
+      "osId": 1000193,
+      "operatingSystemName": "VMS 7.3"
+    },
+    {
+      "osId": 1000062,
+      "operatingSystemName": "VMWare"
+    },
+    {
+      "osId": 1000103,
+      "operatingSystemName": "VMware ESX"
+    },
+    {
+      "osId": 1000152,
+      "operatingSystemName": "VMware ESX 3i 3.5"
+    },
+    {
+      "osId": 1000153,
+      "operatingSystemName": "VMware ESX 4.1"
+    },
+    {
+      "osId": 1000241,
+      "operatingSystemName": "Vmware ESX 5.1"
+    },
+    {
+      "osId": 1000156,
+      "operatingSystemName": "Vmware ESX 5.2"
+    },
+    {
+      "osId": 1000157,
+      "operatingSystemName": "Vmware ESX 5.3"
+    },
+    {
+      "osId": 1000085,
+      "operatingSystemName": "Vmware esxi 5.0"
+    },
+    {
+      "osId": 1000150,
+      "operatingSystemName": "Vmware ESXi 5.1 U1"
+    },
+    {
+      "osId": 1000108,
+      "operatingSystemName": "WIN"
+    },
+    {
+      "osId": 1000022,
+      "operatingSystemName": "Windows"
+    },
+    {
+      "osId": 1000271,
+      "operatingSystemName": "Windows 10 Enterprise 10.0 (14393)"
+    },
+    {
+      "osId": 1000252,
+      "operatingSystemName": "Windows 10 Pro"
+    },
+    {
+      "osId": 1000274,
+      "operatingSystemName": "Windows 10 Pro 10.0 (10586)"
+    },
+    {
+      "osId": 1000272,
+      "operatingSystemName": "Windows 10 Pro 10.0 (14393)"
+    },
+    {
+      "osId": 1000283,
+      "operatingSystemName": "Windows 10 Pro 10.0 (15063)"
+    },
+    {
+      "osId": 1000281,
+      "operatingSystemName": "Windows 10 Pro 10.0 (17134)"
+    },
+    {
+      "osId": 1000080,
+      "operatingSystemName": "Windows 2000 Adv"
+    },
+    {
+      "osId": 1000011,
+      "operatingSystemName": "Windows 2000 Advanced Server"
+    },
+    {
+      "osId": 1000012,
+      "operatingSystemName": "Windows 2000 Server"
+    },
+    {
+      "osId": 1000078,
+      "operatingSystemName": "Windows 2000 Std"
+    },
+    {
+      "osId": 1000084,
+      "operatingSystemName": "Windows 2003"
+    },
+    {
+      "osId": 1000081,
+      "operatingSystemName": "Windows 2003 Ent"
+    },
+    {
+      "osId": 1000013,
+      "operatingSystemName": "Windows 2003 Enterprise Edition"
+    },
+    {
+      "osId": 1000014,
+      "operatingSystemName": "Windows 2003 Standard Edition"
+    },
+    {
+      "osId": 1000079,
+      "operatingSystemName": "Windows 2003 Std"
+    },
+    {
+      "osId": 1000087,
+      "operatingSystemName": "Windows 2008"
+    },
+    {
+      "osId": 1000083,
+      "operatingSystemName": "Windows 2008 Ent"
+    },
+    {
+      "osId": 1000015,
+      "operatingSystemName": "Windows 2008 Enterprise Edition"
+    },
+    {
+      "osId": 1000056,
+      "operatingSystemName": "Windows 2008 R2 Enterprise Edition"
+    },
+    {
+      "osId": 1000055,
+      "operatingSystemName": "Windows 2008 R2 Standard Edition"
+    },
+    {
+      "osId": 1000016,
+      "operatingSystemName": "Windows 2008 Standard Edition"
+    },
+    {
+      "osId": 1000082,
+      "operatingSystemName": "Windows 2008 Std"
+    },
+    {
+      "osId": 1000247,
+      "operatingSystemName": "Windows 7"
+    },
+    {
+      "osId": 1000188,
+      "operatingSystemName": "Windows 7 Enterprise x64 Edition"
+    },
+    {
+      "osId": 1000273,
+      "operatingSystemName": "Windows 7 Entreprise Service Pack 1 6.1 (7601)"
+    },
+    {
+      "osId": 1000190,
+      "operatingSystemName": "Windows 7 Professional"
+    },
+    {
+      "osId": 1000245,
+      "operatingSystemName": "Windows 7 Professional Service Pack 1"
+    },
+    {
+      "osId": 1000196,
+      "operatingSystemName": "Windows 7 Professional x64 Edition"
+    },
+    {
+      "osId": 1000189,
+      "operatingSystemName": "Windows 7 Ultimate x64 Edition"
+    },
+    {
+      "osId": 1000287,
+      "operatingSystemName": "Windows Embedded Standard Service Pack 1 6.1"
+    },
+    {
+      "osId": 1000017,
+      "operatingSystemName": "Windows NT 4"
+    },
+    {
+      "osId": 1000151,
+      "operatingSystemName": "Windows Server 2003 Enterprise Edition"
+    },
+    {
+      "osId": 1000104,
+      "operatingSystemName": "Windows Server 2003 R2 Enterprise Edition"
+    },
+    {
+      "osId": 1000117,
+      "operatingSystemName": "Windows Server 2003 R2 Enterprise x64 Edition"
+    },
+    {
+      "osId": 1000105,
+      "operatingSystemName": "Windows Server 2003 R2 Standard x64 Edition"
+    },
+    {
+      "osId": 1000111,
+      "operatingSystemName": "Windows Server 2003 R2, Standard  Edition"
+    },
+    {
+      "osId": 1000107,
+      "operatingSystemName": "Windows Server 2003, Standard Edition"
+    },
+    {
+      "osId": 1000163,
+      "operatingSystemName": "Windows Server 2008 Enterprise Edition"
+    },
+    {
+      "osId": 1000164,
+      "operatingSystemName": "Windows Server 2008 Enterprise x64 Edition"
+    },
+    {
+      "osId": 1000213,
+      "operatingSystemName": "Windows Server 2008 R2 Datacenter x64 Edition"
+    },
+    {
+      "osId": 1000101,
+      "operatingSystemName": "Windows Server 2008 R2 Enterprise x64 Edition"
+    },
+    {
+      "osId": 1000100,
+      "operatingSystemName": "Windows Server 2008 R2 Standard x64 Edition"
+    },
+    {
+      "osId": 1000165,
+      "operatingSystemName": "Windows Server 2008 Standard Edition"
+    },
+    {
+      "osId": 1000214,
+      "operatingSystemName": "Windows Server 2008 Standard x64 Edition"
+    },
+    {
+      "osId": 1000194,
+      "operatingSystemName": "Windows Storage Server 2003 R2, Standard Edition"
+    },
+    {
+      "osId": 1000186,
+      "operatingSystemName": "Windows XP Professional"
+    },
+    {
+      "osId": 1000187,
+      "operatingSystemName": "Windows XP Professional x64 Edition"
+    },
+    {
+      "osId": 1000242,
+      "operatingSystemName": "z/OS"
+    }
+  ],
+  "elapsedTime": "25"
+}
+
+
+UTILIZATION
+=============
+{
+  "messageType": 0,
+  "message": "Ok",
+  "responseData": [
+    {
+      "id": 1000001,
+      "utilizationDescription": "ADP-2B"
+    },
+    {
+      "id": 1000058,
+      "utilizationDescription": "CAD"
+    },
+    {
+      "id": 1000059,
+      "utilizationDescription": "CAE"
+    },
+    {
+      "id": 1000060,
+      "utilizationDescription": "CAE NONX"
+    },
+    {
+      "id": 1000061,
+      "utilizationDescription": "CAM"
+    },
+    {
+      "id": 1000062,
+      "utilizationDescription": "CAS"
+    },
+    {
+      "id": 1000063,
+      "utilizationDescription": "OTHER"
+    },
+    {
+      "id": 1000064,
+      "utilizationDescription": "SPE"
+    },
+    {
+      "id": 1000260,
+      "utilizationDescription": "THIN"
+    },
+    {
+      "id": 1000261,
+      "utilizationDescription": "TX-DAQ"
+    },
+    {
+      "id": 1000262,
+      "utilizationDescription": "TX-HIL"
+    },
+    {
+      "id": 1000263,
+      "utilizationDescription": "TX-LDM"
+    },
+    {
+      "id": 1000264,
+      "utilizationDescription": "TX-OTHER"
+    },
+    {
+      "id": 1000265,
+      "utilizationDescription": "TX-SPM"
+    },
+    {
+      "id": 1000266,
+      "utilizationDescription": "SVRCAD"
+    }
+  ],
+  "elapsedTime": "28"
+}
+
+DEPLOY-SITE
+============
+{
+  "messageType": 0,
+  "message": "Ok",
+  "responseData": [
+    {
+      "deploysiteid": 1000013,
+      "deploySiteDescription": "BALOCCO - CASCINA BELLA LUIGINA"
+    },
+    {
+      "deploysiteid": 1000014,
+      "deploySiteDescription": "CENTO - VIA FERRARESE 29 - ESPERIENZA"
+    },
+    {
+      "deploysiteid": 1000015,
+      "deploySiteDescription": "CENTO - VIA FERRARESE 29 - VM MOTORI"
+    },
+    {
+      "deploysiteid": 1000016,
+      "deploySiteDescription": "GRUGLIASCO - VIA RIVALTA 30 - TEA"
+    },
+    {
+      "deploysiteid": 1000017,
+      "deploySiteDescription": "MODENA - MASERATI - EX IRISBUS"
+    },
+    {
+      "deploysiteid": 1000018,
+      "deploySiteDescription": "MODENA - VIA EMILIA OVEST 911 - MASERATI"
+    },
+    {
+      "deploysiteid": 1000019,
+      "deploySiteDescription": "MONACO - FCA AD GMBH"
+    },
+    {
+      "deploysiteid": 1000020,
+      "deploySiteDescription": "ORBASSANO - VIA FAUSTO COPPI 1"
+    },
+    {
+      "deploysiteid": 1000021,
+      "deploySiteDescription": "ORBASSANO - VIA FAUSTO COPPI 1 - PALAZZINA CEA"
+    },
+    {
+      "deploysiteid": 1000022,
+      "deploySiteDescription": "ORBASSANO - VIA FAUSTO COPPI 2 - CENTRO SICUREZZA"
+    },
+    {
+      "deploysiteid": 1000023,
+      "deploySiteDescription": "ORBASSANO - VIA FAUSTO COPPI 2 - GALLERIE DEL VENTO"
+    },
+    {
+      "deploysiteid": 1000024,
+      "deploySiteDescription": "TORINO - C.SO AGNELLI 180 - PORTA 4"
+    },
+    {
+      "deploysiteid": 1000025,
+      "deploySiteDescription": "TORINO - C.SO AGNELLI 200 - PORTA 5"
+    },
+    {
+      "deploysiteid": 1000026,
+      "deploySiteDescription": "TORINO - C.SO AGNELLI 220 - PORTA 7"
+    },
+    {
+      "deploysiteid": 1000027,
+      "deploySiteDescription": "TORINO - C.SO ORBASSANO 367"
+    },
+    {
+      "deploysiteid": 1000028,
+      "deploySiteDescription": "TORINO - C.SO SETTEMBRINI 167 - PORTA 19"
+    },
+    {
+      "deploysiteid": 1000029,
+      "deploySiteDescription": "TORINO - C.SO SETTEMBRINI 215"
+    },
+    {
+      "deploysiteid": 1000030,
+      "deploySiteDescription": "TORINO - C.SO SETTEMBRINI 40 - PORTA 8"
+    },
+    {
+      "deploysiteid": 1000031,
+      "deploySiteDescription": "TORINO - C.SO SETTEMBRINI 40 - PORTA 8 FPT"
+    },
+    {
+      "deploysiteid": 1000032,
+      "deploySiteDescription": "TORINO - C.SO SETTEMBRINI 53 - PORTA 16"
+    },
+    {
+      "deploysiteid": 1000033,
+      "deploySiteDescription": "TORINO - C.SO UNIONE SOVIETICA 460 - PORTA 14"
+    },
+    {
+      "deploysiteid": 1000034,
+      "deploySiteDescription": "TORINO - OFFICINA 83 - CENTRO STILE"
+    },
+    {
+      "deploysiteid": 1000035,
+      "deploySiteDescription": "TORINO - P.ZA RICCARDO CATTANEO 9"
+    },
+    {
+      "deploysiteid": 1000036,
+      "deploySiteDescription": "TORINO - STRADA CASCINETTE 424"
+    },
+    {
+      "deploysiteid": 1000037,
+      "deploySiteDescription": "TORINO - STRADA DEL DROSSO 145 - SANGONE"
+    },
+    {
+      "deploysiteid": 1000038,
+      "deploySiteDescription": "TORINO - VIA BISCARETTI DI RUFFIA 90-A"
+    },
+    {
+      "deploysiteid": 1000039,
+      "deploySiteDescription": "TORINO - VIA ISSIGLIO - CED TELECOM"
+    },
+    {
+      "deploysiteid": 1000040,
+      "deploySiteDescription": "TRENTO - VIA SOMMARIVE - CRF"
+    },
+    {
+      "deploysiteid": 1000041,
+      "deploySiteDescription": "VALENZANO - STR.PROV.CASAMASSIMA - CRF"
+    },
+    {
+      "deploysiteid": 1000042,
+      "deploySiteDescription": "VOLVERA - L.GO SEN.AGNELLI 4"
+    },
+    {
+      "deploysiteid": 1000043,
+      "deploySiteDescription": "VOLVERA - L.GO SEN.AGNELLI 5"
+    }
+  ],
+  "elapsedTime": "7"
+}
+
+
+==================================================
+
+POST /api/data/note 
+
+{
+  "serialNumber": "string",
+  "noteText": "string"
+}
+
+response
+
+{
+  "messageType": 0,
+  "message": "string",
+  "responseData": {},
+  "elapsedTime": "string"
+}
